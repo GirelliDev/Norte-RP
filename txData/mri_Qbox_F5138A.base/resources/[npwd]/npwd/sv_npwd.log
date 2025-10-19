@@ -132,3 +132,6 @@
 {"level":"silly","message":"Response Promise Event npwd-contact-getAll:cbae7ac4-8311-409e-8a02-425814cf04ce (20.5682ms), Data >>","module":"events","timestamp":"2025-10-19T18:03:39.740Z"}
 {"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2025-10-19T18:03:39.741Z"}
 {"level":"info","message":"Executed query (SELECT * FROM npwd_phone_contacts WHERE identifier = ? ORDER BY display ASC [\"PVLBTK47\"]) in 20.0791ms'","module":"DBInterface","timestamp":"2025-10-19T18:03:39.740Z"}
+{"level":"info","message":"Executed query (SELECT id FROM npwd_marketplace_listings WHERE identifier = ? [\"PVLBTK47\"]) in 8.2745ms'","module":"DBInterface","timestamp":"2025-10-19T18:17:25.541Z"}
+{"level":"info","message":"Executed query (DELETE FROM npwd_marketplace_listings WHERE identifier = ? AND reported = 0 [\"PVLBTK47\"]) in 39.3322ms'","module":"DBInterface","timestamp":"2025-10-19T18:17:25.581Z"}
+{"level":"info","message":"Unloaded NPWD Player, source: (1)","module":"player","timestamp":"2025-10-19T18:17:25.581Z"}
