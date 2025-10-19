@@ -8,3 +8,11 @@
 [13:36:42][Matheus_Girelli] Running recipe.
 [13:42:14][Matheus_Girelli] Config changes: server.dataPath
 [13:42:14][Matheus_Girelli] Completed and committed server deploy.
+[13:53:30][Matheus_Girelli] Changing own identifiers.
+[14:26:40][Matheus_Girelli] Refreshed resources
+[14:26:47][Matheus_Girelli] [Matheus_Girelli] executed "RESTART SERVER"
+[14:28:47][Matheus_Girelli] [Matheus_Girelli] executed "RESTART SERVER"
+[14:28:53][Matheus_Girelli] [Matheus_Girelli] executed "STOP SERVER"
+[14:58:30][Matheus_Girelli] [Matheus_Girelli] executed "START SERVER"
+[15:00:45][Matheus_Girelli] Refreshed resources
+[15:03:22][Matheus_Girelli] Refreshed resources
