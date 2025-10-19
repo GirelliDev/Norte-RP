@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "general": {
+    "serverName": "Norte RP"
+  },
+  "server": {
+    "dataPath": "D:/WindowsFiles/Imagens/cidade/txData/mri_Qbox_F5138A.base/"
+  }
+}

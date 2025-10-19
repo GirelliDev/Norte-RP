@@ -1,0 +1,23 @@
+{
+    "scaleform": {
+        "mouse": "Alternar mouse",
+        "ui": "Mostrar/Ocultar UI",
+        "quit": "Sair",
+        "slower": "Mais lento",
+        "faster": "Mais rápido",
+        "up": "Para cima",
+        "down": "Para baixo",
+        "forward": "Para frente",
+        "backward": "Para trás",
+        "left": "Esquerda",
+        "right": "Direita"
+    },
+    "ui": {
+        "fov": "Campo de Visão",
+        "roll": "Rotação",
+        "dofStart": "Início de Profundidade de Campo",
+        "dofEnd": "Fim de Profundidade de Campo",
+        "dofStrength": "Intensidade de Profundidade de Campo"
+    },
+    "open": "Abrir o modo de foto"
+}

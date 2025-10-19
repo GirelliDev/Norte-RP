@@ -1,0 +1,18 @@
+{
+  "hud_settings_loaded": "Configurações do HUD carregadas!",
+  "hud_restart": "HUD está reiniciando!",
+  "hud_start": "HUD está agora iniciado!",
+  "hud_command_info": "Este comando redefine suas configurações atuais do HUD!",
+  "load_square_map": "Carregando Mapa Quadrado...",
+  "loaded_square_map": "Mapa Quadrado foi carregado!",
+  "load_circle_map": "Carregando Mapa Circular...",
+  "loaded_circle_map": "Mapa Circular foi carregado!",
+  "cinematic_on": "Modo Cinemático Ativado!",
+  "cinematic_off": "Modo Cinemático Desativado!",
+  "engine_on": "Motor Iniciado!",
+  "engine_off": "Motor Desligado!",
+  "low_fuel": "Nível de Combustível Baixo!",
+  "access_denied": "Você não está autorizado!",
+  "stress_gain": "Sentindo-se mais estressado!",
+  "stress_removed": "Sentindo-se mais relaxado!"
+}

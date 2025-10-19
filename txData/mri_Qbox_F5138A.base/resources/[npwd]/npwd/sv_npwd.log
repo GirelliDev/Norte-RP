@@ -1,0 +1,17 @@
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2025-10-19T16:42:23.632Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2025-10-19T16:42:23.635Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2025-10-19T16:42:23.636Z"}
+{"level":"info","message":"Loading QBX bridge....","timestamp":"2025-10-19T16:42:23.637Z"}
+{"level":"info","message":"QBX bridge initialized","timestamp":"2025-10-19T16:42:23.637Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2025-10-19T16:42:23.637Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2025-10-19T16:42:23.638Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2025-10-19T16:42:23.638Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2025-10-19T16:42:23.638Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2025-10-19T16:42:23.650Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2025-10-19T16:42:23.651Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2025-10-19T16:42:23.652Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2025-10-19T16:42:34.766Z"}
+{"level":"info","message":"Successfully started","timestamp":"2025-10-19T16:42:34.782Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"mri_Qbox_F5138A\",\"players\"]) in 160.0921ms'","module":"DBInterface","timestamp":"2025-10-19T16:42:35.929Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN players []) in 16.3006ms'","module":"DBInterface","timestamp":"2025-10-19T16:42:35.946Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2025-10-19T16:42:35.946Z"}
