@@ -7940,6 +7940,9 @@ return {
     },
     -- === VEÍCULOS POLÍCIA E PARAMÉDICO ===
 -- Paramedico
+-- ===== VEÍCULOS COMPLETO =====
+
+-- Paramedico
 ['wrasprinter'] = {
     name = 'Sprinter Ambulância',
     brand = 'Mercedes-Benz',
@@ -7947,7 +7950,7 @@ return {
     price = 0,
     category = 'emergency',
     type = 'automobile',
-    hash = `wrasprinter`,
+    hash = -1284811839,
 },
 ['wrgle53'] = {
     name = 'GLE 53 SAMU',
@@ -7956,27 +7959,27 @@ return {
     price = 0,
     category = 'emergency',
     type = 'automobile',
-    hash = `wrgle53`,
+    hash = -1304564705,
 },
 
 -- Polícia
 ['cdac7'] = {
-    name = 'Speed CA7',
-    brand = 'Cidade Alta',
+    name = 'Corvette C7 Speed',
+    brand = 'Chevrolet',
     model = 'cdac7',
     price = 0,
     category = 'police',
     type = 'automobile',
-    hash = `cdac7`,
+    hash = -1302786231,
 },
 ['cdacivic'] = {
-    name = 'Speed Civic',
-    brand = 'Cidade Alta',
+    name = 'Civic Speed',
+    brand = 'Honda',
     model = 'cdacivic',
     price = 0,
     category = 'police',
     type = 'automobile',
-    hash = `cdacivic`,
+    hash = 34702548,
 },
 ['bcat'] = {
     name = 'B.C.A.T',
@@ -7985,7 +7988,7 @@ return {
     price = 0,
     category = 'police',
     type = 'automobile',
-    hash = `bcat`,
+    hash = 1947925897,
 },
 ['enduro'] = {
     name = 'Enduro',
@@ -7994,7 +7997,7 @@ return {
     price = 0,
     category = 'police',
     type = 'bike',
-    hash = `enduro`,
+    hash = 1753414259,
 },
 ['wr19ranger'] = {
     name = 'Ranger 2019',
@@ -8003,7 +8006,7 @@ return {
     price = 0,
     category = 'police',
     type = 'automobile',
-    hash = `wr19ranger`,
+    hash = -529380334,
 },
 ['wra45'] = {
     name = 'A45 AMG',
@@ -8012,7 +8015,7 @@ return {
     price = 0,
     category = 'police',
     type = 'automobile',
-    hash = `wra45`,
+    hash = 1654989418,
 },
 ['wrbmwx6'] = {
     name = 'BMW X6',
@@ -8021,7 +8024,7 @@ return {
     price = 0,
     category = 'police',
     type = 'automobile',
-    hash = `wrbmwx6`,
+    hash = nil,
 },
 ['wrbmwx7'] = {
     name = 'BMW X7',
@@ -8030,7 +8033,7 @@ return {
     price = 0,
     category = 'police',
     type = 'automobile',
-    hash = `wrbmwx7`,
+    hash = nil,
 },
 ['wrclassxv2'] = {
     name = 'Classe X V2',
@@ -8039,7 +8042,7 @@ return {
     price = 0,
     category = 'police',
     type = 'automobile',
-    hash = `wrclassxv2`,
+    hash = 431385387,
 },
 ['wrcrv'] = {
     name = 'Honda CRV',
@@ -8048,7 +8051,7 @@ return {
     price = 0,
     category = 'police',
     type = 'automobile',
-    hash = `wrcrv`,
+    hash = -297474741,
 },
 ['wrgle'] = {
     name = 'GLE 450',
@@ -8057,7 +8060,7 @@ return {
     price = 0,
     category = 'police',
     type = 'automobile',
-    hash = `wrgle`,
+    hash = -922043421,
 },
 ['wrm5'] = {
     name = 'BMW M5',
@@ -8066,7 +8069,7 @@ return {
     price = 0,
     category = 'police',
     type = 'automobile',
-    hash = `wrm5`,
+    hash = nil,
 },
 ['wrsilverado'] = {
     name = 'Silverado',
@@ -8075,7 +8078,7 @@ return {
     price = 0,
     category = 'police',
     type = 'automobile',
-    hash = `wrsilverado`,
+    hash = -1287345828,
 },
 ['wrsubaru'] = {
     name = 'Subaru WRX',
@@ -8084,7 +8087,7 @@ return {
     price = 0,
     category = 'police',
     type = 'automobile',
-    hash = `wrsubaru`,
+    hash = 1013916264,
 },
 ['wrxc90'] = {
     name = 'Volvo XC90',
@@ -8093,7 +8096,7 @@ return {
     price = 0,
     category = 'police',
     type = 'automobile',
-    hash = `wrxc90`,
+    hash = 1658853266,
 },
 ['wryukon'] = {
     name = 'GMC Yukon',
@@ -8102,7 +8105,7 @@ return {
     price = 0,
     category = 'police',
     type = 'automobile',
-    hash = `wryukon`,
+    hash = 1340206007,
 },
 
 -- Motos
@@ -8113,7 +8116,7 @@ return {
     price = 0,
     category = 'emergency',
     type = 'bike',
-    hash = `wrr1200`,
+    hash = 1775498021,
 },
 ['wrtiger900'] = {
     name = 'Tiger 900',
@@ -8122,6 +8125,7 @@ return {
     price = 0,
     category = 'emergency',
     type = 'bike',
-    hash = `wrtiger900`,
+    hash = -1353933318,
 }
+
 }
