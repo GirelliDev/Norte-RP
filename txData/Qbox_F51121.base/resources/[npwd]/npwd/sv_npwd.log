@@ -1,0 +1,51 @@
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2025-10-19T16:29:48.394Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2025-10-19T16:29:48.397Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2025-10-19T16:29:48.398Z"}
+{"level":"info","message":"Loading QBX bridge....","timestamp":"2025-10-19T16:29:48.398Z"}
+{"level":"info","message":"QBX bridge initialized","timestamp":"2025-10-19T16:29:48.399Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2025-10-19T16:29:48.400Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2025-10-19T16:29:48.401Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2025-10-19T16:29:48.401Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2025-10-19T16:29:48.401Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2025-10-19T16:29:48.417Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2025-10-19T16:29:48.417Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2025-10-19T16:29:48.418Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2025-10-19T16:29:49.524Z"}
+{"level":"info","message":"Successfully started","timestamp":"2025-10-19T16:29:49.535Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"Qbox_F51121\",\"players\"]) in 78.7415ms'","module":"DBInterface","timestamp":"2025-10-19T16:29:49.603Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN players []) in 26.7897ms'","module":"DBInterface","timestamp":"2025-10-19T16:29:49.630Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2025-10-19T16:29:49.631Z"}
+{"level":"info","message":"New NPWD Player added through event (1) (FMK471W9)","module":"player","timestamp":"2025-10-19T16:32:38.328Z"}
+{"level":"debug","message":{"_firstname":"Girelli","_identifier":"FMK471W9","_lastname":"Dev","_phoneNumber":"6475313057","source":1,"username":"GirelliDev"},"module":"player","timestamp":"2025-10-19T16:32:38.328Z"}
+{"level":"info","message":"New NPWD Player added through event (1) (FMK471W9)","module":"player","timestamp":"2025-10-19T16:32:38.334Z"}
+{"level":"debug","message":{"_firstname":"Girelli","_identifier":"FMK471W9","_lastname":"Dev","_phoneNumber":"6475313057","source":1,"username":"GirelliDev"},"module":"player","timestamp":"2025-10-19T16:32:38.334Z"}
+{"level":"silly","message":"netPromise > npwd:fetchTweets > RequestObj","module":"events","timestamp":"2025-10-19T16:32:38.428Z"}
+{"level":"silly","message":{"data":{"pageId":0},"source":1},"module":"events","timestamp":"2025-10-19T16:32:38.429Z"}
+{"level":"info","message":"Executed query (\n        SELECT *\n        FROM npwd_twitter_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"FMK471W9\"]) in 13.2066ms'","module":"DBInterface","timestamp":"2025-10-19T16:32:38.443Z"}
+{"level":"warn","message":"Aborted fetching tweets for user FMK471W9 because they do not have a profile.","module":"twitter","timestamp":"2025-10-19T16:32:38.443Z"}
+{"level":"silly","message":"Response Promise Event npwd:fetchTweets:2391d8c7-ed1f-4a65-92f8-27362ad3727a (15.6715ms), Data >>","module":"events","timestamp":"2025-10-19T16:32:38.444Z"}
+{"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2025-10-19T16:32:38.444Z"}
+{"level":"silly","message":"netPromise > npwd:getOrCreateTwitterProfile > RequestObj","module":"events","timestamp":"2025-10-19T16:32:38.743Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-10-19T16:32:38.743Z"}
+{"level":"silly","message":"netPromise > phone:getMyProfile > RequestObj","module":"events","timestamp":"2025-10-19T16:32:38.761Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-10-19T16:32:38.762Z"}
+{"level":"silly","message":"netPromise > npwd:fetchMessageGroups > RequestObj","module":"events","timestamp":"2025-10-19T16:32:38.765Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-10-19T16:32:38.765Z"}
+{"level":"silly","message":"netPromise > npwd-contact-getAll > RequestObj","module":"events","timestamp":"2025-10-19T16:32:38.767Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-10-19T16:32:38.767Z"}
+{"level":"info","message":"Executed query (\n        SELECT *\n        FROM npwd_twitter_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"FMK471W9\"]) in 12.2366ms'","module":"DBInterface","timestamp":"2025-10-19T16:32:38.773Z"}
+{"level":"info","message":"Creating default Twitter profile Girelli_Dev for FMK471W9","module":"twitter","timestamp":"2025-10-19T16:32:38.774Z"}
+{"level":"info","message":"Executed query (SELECT npwd_messages_conversations.id,\n                          npwd_messages_conversations.conversation_list         as conversationList,\n                          npwd_messages_participants.unread_count               as unreadCount,\n                          npwd_messages_conversations.is_group_chat             as isGroupChat,\n                          npwd_messages_conversations.label,\n                          UNIX_TIMESTAMP(npwd_messages_conversations.updatedAt) as updatedAt,\n                          npwd_messages_participants.participant\n                   FROM npwd_messages_conversations\n                            INNER JOIN npwd_messages_participants\n                                       on npwd_messages_conversations.id = npwd_messages_participants.conversation_id\n                   WHERE npwd_messages_participants.participant = ? [\"6475313057\"]) in 18.9115ms'","module":"DBInterface","timestamp":"2025-10-19T16:32:38.785Z"}
+{"level":"silly","message":"Response Promise Event npwd:fetchMessageGroups:a6bd4c72-a4fe-4797-aefb-7f71505f8542 (20.0798ms), Data >>","module":"events","timestamp":"2025-10-19T16:32:38.785Z"}
+{"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2025-10-19T16:32:38.786Z"}
+{"level":"info","message":"Executed query (\n        SELECT *,\n               UNIX_TIMESTAMP(updatedAt) AS lastActive\n        FROM npwd_match_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"FMK471W9\"]) in 24.5386ms'","module":"DBInterface","timestamp":"2025-10-19T16:32:38.788Z"}
+{"level":"info","message":"Creating default match profile Girelli Dev for FMK471W9","module":"match","timestamp":"2025-10-19T16:32:38.789Z"}
+{"level":"info","message":"Executed query (SELECT * FROM npwd_phone_contacts WHERE identifier = ? ORDER BY display ASC [\"FMK471W9\"]) in 23.7023ms'","module":"DBInterface","timestamp":"2025-10-19T16:32:38.791Z"}
+{"level":"silly","message":"Response Promise Event npwd-contact-getAll:0b200425-3c52-42ee-9a2a-729140a5287c (24.5045ms), Data >>","module":"events","timestamp":"2025-10-19T16:32:38.791Z"}
+{"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2025-10-19T16:32:38.792Z"}
+{"level":"info","message":"Executed query (\n        SELECT *\n        FROM npwd_twitter_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"FMK471W9\"]) in 1.7652ms'","module":"DBInterface","timestamp":"2025-10-19T16:32:38.795Z"}
+{"level":"silly","message":"Response Promise Event npwd:getOrCreateTwitterProfile:eae0a84f-0388-4390-9b4d-36cc50e7b0ef (52.4015ms), Data >>","module":"events","timestamp":"2025-10-19T16:32:38.795Z"}
+{"level":"silly","message":{"data":{"avatar_url":"https://i.fivemanage.com/images/3ClWwmpwkFhL.png","createdAt":"2025-10-19T16:32:38.000Z","id":1,"identifier":"FMK471W9","profile_name":"Girelli_Dev","updatedAt":"2025-10-19T16:32:38.000Z"},"status":"ok"},"module":"events","timestamp":"2025-10-19T16:32:38.796Z"}
+{"level":"info","message":"Executed query (\n        SELECT *,\n               UNIX_TIMESTAMP(updatedAt) AS lastActive\n        FROM npwd_match_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"FMK471W9\"]) in 1.3351ms'","module":"DBInterface","timestamp":"2025-10-19T16:32:38.799Z"}
+{"level":"silly","message":"Response Promise Event phone:getMyProfile:eb49a554-ff58-42b8-88fa-794b69b5c98f (38.3593ms), Data >>","module":"events","timestamp":"2025-10-19T16:32:38.800Z"}
+{"level":"silly","message":{"data":{"bio":"","createdAt":"2025-10-19T16:32:38.000Z","id":1,"identifier":"FMK471W9","image":"https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg","job":"","lastActive":1760891558,"lastActiveFormatted":"Sun, 19 Oct 2025 16:32:38 GMT","location":"","name":"Girelli Dev","tagList":[],"tags":"","updatedAt":"2025-10-19T16:32:38.000Z","viewed":false,"voiceMessage":null},"status":"ok"},"module":"events","timestamp":"2025-10-19T16:32:38.800Z"}
