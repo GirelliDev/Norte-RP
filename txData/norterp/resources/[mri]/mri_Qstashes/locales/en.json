@@ -1,0 +1,99 @@
+{
+    "openadm": {
+        "title": "Stash Creator",
+        "options_title": "Create New Stash",
+        "options_description": "Creates a new Stash",
+        "options2_title": "Teleport to Stash",
+        "options2_description": "Teleports to your Stashes",
+        "options2_description2": "Click to teleport",
+        "options2_title2": "Teleport",
+        "options2_description3": "Teleported to",
+        "options2_title3": "Teleport to Desired Stash",
+        "options3_title": "Delete Existing Stash",
+        "options3_description": "Deletes a created Stash",
+        "options3_description2": "Click to Delete",
+        "options3_description3": "Stash deleted successfully",
+        "options3_description4": "Unable to delete the stash",
+        "options3_title2": "Delete a Stash",
+        "options4_title": "Edit Existing Stash",
+        "options4_description": "Edit a stash you have created",
+        "options4_description2": "Click to edit"
+    },
+    "target": {
+        "input": "Enter your password",
+        "label": "Password",
+        "description": "What's your password?"
+    },
+    "raycast": {
+        "title": "Stash Coordinates:",
+        "e_button": "[E] to SAVE",
+        "del_button": "[BACKSPACE] to CANCEL"
+    },
+    "createmenu": {
+        "title": "Create Stash",
+        "input1": "Stash Name",
+        "description1": "Cannot be the same as other stashes.",
+        "input2": "Job",
+        "description2": "Job (optional)",
+        "input3": "Gang",
+        "description3": "Gang (optional)",
+        "input4": "Rank",
+        "description4": "Job or gang rank (optional)",
+        "input5": "Item",
+        "description5": "Item required to open the stash (optional)",
+        "input6": "Slot Quantity",
+        "description6": "Number of stash slots (optional)",
+        "input7": "Stash Weight",
+        "description7": "Initial stash weight (optional)",
+        "input8": "Password",
+        "description8": "Enter a password to open the stash (optional)",
+        "input9": "Citizen ID",
+        "description9": "Enter allowed Citizen ID (optional)",
+        "input10": "Target Description",
+        "description10": "Enter if you want to customize the default 'Open Stash' message (optional)",
+        "default10": "Open Stash",
+        "input11": "Discord Webhook",
+        "description11": "Add the discord webhook to get a log of what is in and out of the chest",
+        "notify_sucess": "Stash created successfully!",
+        "notify_error": "Stash creation canceled!"
+    },
+    "command": {
+        "help": "Create a new stash [admin only]"
+    },
+    "menu": {
+        "search_title": "�� Search stash...",
+        "search_description": "Filter stashes by name, job, gang, citizenID, etc.",
+        "search_input_label": "Enter search term",
+        "search_input_desc": "Can be name, job, gang, citizenID, etc.",
+        "create_title": "Create new stash",
+        "create_description": "Click to create a new stash"
+    },
+    "desc": {
+        "weight": "Weight: ",
+        "kg": "kg",
+        "slots": "Slots: ",
+        "cid": "CID: ",
+        "job": "Job: ",
+        "gang": "Gang: ",
+        "rank": "Rank: ",
+        "item": "Item: ",
+        "senha": "Password: Yes"
+    },
+    "submenu": {
+        "edit": "Edit (admin only)",
+        "edit_desc": "Edit this stash",
+        "move": "Move",
+        "move_desc": "Change this stash location",
+        "move_success": "Stash location updated!",
+        "move_cancel": "Action canceled.",
+        "teleport": "Teleport",
+        "teleport_desc": "Teleport to this stash",
+        "teleport_success": "You have been teleported to stash ",
+        "delete": "Delete",
+        "delete_desc": "Delete this stash",
+        "delete_confirm": "Are you sure you want to delete this stash?"
+    },
+    "error": {
+        "admin_only": "Access denied: admins only."
+    }
+}

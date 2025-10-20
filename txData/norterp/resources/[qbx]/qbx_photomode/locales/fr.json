@@ -1,0 +1,23 @@
+{
+    "scaleform": {
+        "mouse": "Activer souris",
+        "ui": "Activer/Désactiver l'interface",
+        "quit": "Quitter",
+        "slower": "Ralentir",
+        "faster": "Accélérer",
+        "up": "Monter",
+        "down": "Descendre",
+        "forward": "Avancer",
+        "backward": "Reculer",
+        "left": "Gauche",
+        "right": "Droite"
+    },
+    "ui": {
+        "fov": "Champ de vision",
+        "roll": "Roulis",
+        "dofStart": "Profondeur de champ début",
+        "dofEnd": "Profondeur de champ fin",
+        "dofStrength": "Opacitée de la profondeur de champ"
+    },
+    "open": "Ouvrir mode photo"
+}
